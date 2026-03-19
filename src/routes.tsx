@@ -2,6 +2,11 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { DashboardPage } from '@/pages/DashboardPage'
 import { WorkspacePage } from '@/pages/WorkspacePage'
 import { VaultPage } from '@/pages/VaultPage'
+import { FilesPage } from '@/pages/FilesPage'
+import { SettingsPage } from '@/pages/SettingsPage'
+import { AuditPage } from '@/pages/AuditPage'
+import { SecurityPage } from '@/pages/SecurityPage'
+import { HistoryPage } from '@/pages/HistoryPage'
 
 export default function AppRoutes() {
   return (
@@ -10,11 +15,11 @@ export default function AppRoutes() {
       <Route path="/dashboard" element={<DashboardPage />} />
       <Route path="/workspace" element={<WorkspacePage />} />
       <Route path="/vault" element={<VaultPage />} />
-      <Route path="/history" element={<div className="p-8"><h1 className="text-2xl font-bold">History Page - Coming Soon</h1></div>} />
-      <Route path="/files" element={<div className="p-8"><h1 className="text-2xl font-bold">Files Page - Coming Soon</h1></div>} />
-      <Route path="/security" element={<div className="p-8"><h1 className="text-2xl font-bold">Security Rules - Coming Soon</h1></div>} />
-      <Route path="/audit" element={<div className="p-8"><h1 className="text-2xl font-bold">Audit Logs - Coming Soon</h1></div>} />
-      <Route path="/settings" element={<div className="p-8"><h1 className="text-2xl font-bold">Settings - Coming Soon</h1></div>} />
+      <Route path="/files" element={<FilesPage />} />
+      <Route path="/settings" element={<SettingsPage />} />
+      <Route path="/audit" element={<AuditPage />} />
+      <Route path="/history" element={<HistoryPage />} />
+      <Route path="/security" element={<SecurityPage />} />
     </Routes>
   )
 }
