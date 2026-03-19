@@ -29,3 +29,6 @@ Thumbs.db
 
 # HTML (using TSX instead)
 *.html
+
+# PostCSS config must be .js
+!postcss.config.js
