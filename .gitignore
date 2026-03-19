@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Qwen Code config (not for commit)
+.qwen/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
