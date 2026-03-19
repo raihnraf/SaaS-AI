@@ -3,8 +3,4 @@ export default {
     tailwindcss: {},
     autoprefixer: {},
   },
-} satisfies PostCSSConfig;
-
-interface PostCSSConfig {
-  plugins: Record<string, unknown>;
 }
