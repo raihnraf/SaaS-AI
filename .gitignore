@@ -27,7 +27,8 @@ Thumbs.db
 .env
 .env.local
 
-# HTML (using TSX instead)
+# HTML (Vite requires index.html in root)
+!index.html
 *.html
 
 # PostCSS config must be .js
