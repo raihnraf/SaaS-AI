@@ -8,7 +8,7 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         alias: {
-            '@': path.resolve(fileURLToPath(import.meta.url), './src'),
+            '@': path.resolve(fileURLToPath(import.meta.url), '../src'),
         },
     },
 });

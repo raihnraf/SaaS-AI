@@ -1,1 +1,6 @@
 export { DashboardPage } from './DashboardPage'
+export { WorkspacePage } from './WorkspacePage'
+export { VaultPage } from './VaultPage'
+export { FilesPage } from './FilesPage'
+export { SettingsPage } from './SettingsPage'
+export { AuditPage } from './AuditPage'
