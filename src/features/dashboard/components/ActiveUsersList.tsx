@@ -3,6 +3,7 @@ import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { activeUsers } from '@/data/dashboard'
 import { motion } from 'framer-motion'
+import { cn } from '@/lib/utils'
 
 export function ActiveUsersList() {
   return (
@@ -52,8 +53,4 @@ export function ActiveUsersList() {
       </div>
     </Card>
   )
-}
-
-function cn(...classes: (string | undefined | null | false)[]) {
-  return classes.filter(Boolean).join(' ')
 }

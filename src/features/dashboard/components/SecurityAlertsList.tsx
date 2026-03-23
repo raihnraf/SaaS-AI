@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { securityAlerts } from '@/data/dashboard'
 import { motion } from 'framer-motion'
+import { cn } from '@/lib/utils'
 
 const iconMap = {
   error: AlertTriangle,
@@ -75,8 +76,4 @@ export function SecurityAlertsList() {
       </div>
     </Card>
   )
-}
-
-function cn(...classes: (string | undefined | null | false)[]) {
-  return classes.filter(Boolean).join(' ')
 }
